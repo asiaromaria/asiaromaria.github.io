@@ -1,10 +1,8 @@
 html {
-    background-color: #f1f1f1;
     cursor: inherit;
     }
 
 body {
-    background-color: #ffffff00;
     font-family: "Times New Roman",Times,serif;
     font-size: 16px;
     line-height: 2.25rem;
@@ -16,15 +14,16 @@ body {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 32px;
-    font-style: normal;
+    font:playfair;
+    font-size: 40px;
+    font-style:oblique;
     color: black;
     margin-top: 10rem;
     text-align: center;
 }
 h2{
     text-align: center;
+    margin-top:3rem
 }
 
 p{
@@ -38,8 +37,10 @@ p{
 
 
 .topnav{
+    position:relative;
     text-align: right;
     overflow: hidden;
+    
 }
   
   /* Style the links inside the navigation bar */
@@ -64,8 +65,40 @@ p{
     color: white;
   }
 
-  
+  .specialties{
+      color:white;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+      background-color: black;
+  }
 
+  .column1{
+    float: left;
+    color:white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 620px;
+    padding-left: 180px;
+    line-height: 70px;
+    background-color: black;
+  }
+
+  .column2{
+    color:white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 620px;
+    float: right;
+    padding-left: 90px;
+    line-height: 70px;
+    background-color: black;
+    background-size: 2rem;
+  }
+.backround{
+    background-color: black;
+}
 
 
 /* Color Palette
